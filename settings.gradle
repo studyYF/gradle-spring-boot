@@ -1,0 +1,3 @@
+rootProject.name = 'seven-parent'
+include('seven-common','seven-service','seven-web')
+

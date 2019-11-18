@@ -1,0 +1,36 @@
+2019-11-18 14:58:20.063  INFO 5804 --- [main] com.crossyf.seven.web.ConfigTest         : Starting ConfigTest on crossYF-2.local with PID 5804 (started by yangf in /Users/yangf/Personal/Java/seven-parent/seven-web)
+2019-11-18 14:58:20.066 DEBUG 5804 --- [main] com.crossyf.seven.web.ConfigTest         : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-18 14:58:20.067  INFO 5804 --- [main] com.crossyf.seven.web.ConfigTest         : No active profile set, falling back to default profiles: default
+2019-11-18 14:58:20.862  WARN 5804 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.crossyf.seven.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2019-11-18 14:58:20.863  WARN 5804 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.crossyf.seven.mapper]' package. Please check your configuration.
+2019-11-18 14:58:22.715  INFO 5804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:58:23.326  INFO 5804 --- [main] com.crossyf.seven.web.ConfigTest         : Started ConfigTest in 4.123 seconds (JVM running for 6.018)
+2019-11-18 14:58:23.716  INFO 5804 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:58:57.018  INFO 5807 --- [main] com.crossyf.seven.web.ConfigTest         : Starting ConfigTest on crossYF-2.local with PID 5807 (started by yangf in /Users/yangf/Personal/Java/seven-parent/seven-web)
+2019-11-18 14:58:57.078 DEBUG 5807 --- [main] com.crossyf.seven.web.ConfigTest         : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-18 14:58:57.078  INFO 5807 --- [main] com.crossyf.seven.web.ConfigTest         : No active profile set, falling back to default profiles: default
+2019-11-18 14:58:57.897  WARN 5807 --- [main] o.m.s.mapper.ClassPathMapperScanner      : Skipping MapperFactoryBean with name 'userMapper' and 'com.crossyf.seven.mapper.UserMapper' mapperInterface. Bean already defined with the same name!
+2019-11-18 14:58:57.898  WARN 5807 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.crossyf.seven.mapper]' package. Please check your configuration.
+2019-11-18 14:59:00.014  INFO 5807 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 14:59:00.753  INFO 5807 --- [main] com.crossyf.seven.web.ConfigTest         : Started ConfigTest in 4.699 seconds (JVM running for 7.109)
+2019-11-18 14:59:01.111  INFO 5807 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 15:03:53.628  INFO 5821 --- [main] com.crossyf.seven.web.ConfigTest         : Starting ConfigTest on crossYF-2.local with PID 5821 (started by yangf in /Users/yangf/Personal/Java/seven-parent/seven-web)
+2019-11-18 15:03:53.630 DEBUG 5821 --- [main] com.crossyf.seven.web.ConfigTest         : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-18 15:03:53.631  INFO 5821 --- [main] com.crossyf.seven.web.ConfigTest         : No active profile set, falling back to default profiles: default
+2019-11-18 15:03:55.979  INFO 5821 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 15:03:56.541  INFO 5821 --- [main] com.crossyf.seven.web.ConfigTest         : Started ConfigTest in 3.528 seconds (JVM running for 5.357)
+2019-11-18 15:03:56.889  INFO 5821 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 15:10:05.410  INFO 5837 --- [main] com.crossyf.seven.web.ConfigTest         : Starting ConfigTest on crossYF-2.local with PID 5837 (started by yangf in /Users/yangf/Personal/Java/seven-parent/seven-web)
+2019-11-18 15:10:05.412 DEBUG 5837 --- [main] com.crossyf.seven.web.ConfigTest         : Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2019-11-18 15:10:05.413  INFO 5837 --- [main] com.crossyf.seven.web.ConfigTest         : No active profile set, falling back to default profiles: default
+2019-11-18 15:10:06.304  WARN 5837 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.crossyf.seven.common, com.crossyf.seven]' package. Please check your configuration.
+2019-11-18 15:10:08.395  INFO 5837 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-11-18 15:10:09.028  INFO 5837 --- [main] com.crossyf.seven.web.ConfigTest         : Started ConfigTest in 4.287 seconds (JVM running for 5.957)
+2019-11-18 15:10:09.445  INFO 5837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-11-18 15:10:10.635  INFO 5837 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-11-18 15:10:10.648 DEBUG 5837 --- [main] c.c.seven.mapper.UserMapper.selectUser   : ==>  Preparing: select * from t_base_user where username = ? 
+2019-11-18 15:10:10.694 DEBUG 5837 --- [main] c.c.seven.mapper.UserMapper.selectUser   : ==> Parameters: crossyf(String)
+2019-11-18 15:10:10.769 DEBUG 5837 --- [main] c.c.seven.mapper.UserMapper.selectUser   : <==      Total: 1
+2019-11-18 15:10:10.804  INFO 5837 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-11-18 15:10:10.808  INFO 5837 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-11-18 15:10:11.284  INFO 5837 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

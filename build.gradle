@@ -1,0 +1,75 @@
+plugins {
+    id 'java'
+}
+
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
+
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    group 'com.crossyf.seven'
+    version '1.0-SNAPSHOT'
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+    [compileJava,compileTestJava,javadoc]*.options*.encoding = 'UTF-8'
+
+}
+
+subprojects {
+    ext {
+        springBootVersion = "2.2.1"
+    }
+}
+
+project(':seven-common') {
+    dependencies {
+        compile(
+                'cn.hutool:hutool-all:5.0.5'
+        )
+    }
+
+}
+
+
+project(':seven-service') {
+    dependencies {
+        compile project(":seven-common")
+        compile(
+                'org.springframework.boot:spring-boot-starter-web',
+                'com.baomidou:mybatisplus-spring-boot-starter:1.0.5',
+                'com.baomidou:mybatis-plus:3.1.0',
+                'org.projectlombok:lombok:1.18.0',
+                'com.alibaba:druid:1.1.10',
+                'mysql:mysql-connector-java:8.0.11'
+        )
+    }
+
+}
+
+project(':seven-web') {
+    apply plugin: "war"
+    dependencies {
+        compile project(":seven-service")
+        compile(
+                'org.springframework.boot:spring-boot-starter-web',
+                'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1'
+        )
+        providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
+    }
+    processResources {
+        /* 从$projectDir/src/main/java 目录下复制文件到web-inf/classes目录下覆盖原有同名文件*/
+        from("$projectDir/src/main/java")
+    }
+
+
+
+}
