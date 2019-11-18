@@ -45,8 +45,7 @@ project(':seven-service') {
         compile project(":seven-common")
         compile(
                 'org.springframework.boot:spring-boot-starter-web',
-                'com.baomidou:mybatisplus-spring-boot-starter:1.0.5',
-                'com.baomidou:mybatis-plus:3.1.0',
+                'com.baomidou:mybatis-plus-boot-starter:3.2.0',
                 'org.projectlombok:lombok:1.18.0',
                 'com.alibaba:druid:1.1.10',
                 'mysql:mysql-connector-java:8.0.11'
